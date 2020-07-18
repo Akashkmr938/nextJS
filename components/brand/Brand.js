@@ -501,12 +501,11 @@ const Brand = () => {
                                 id="SBNPZ"
                                 name="customRadio"
                                 className="custom-control-input"
-                                checked=""
                                 defaultChecked
                               />
                               <label
                                 className="custom-control-label fs-16 fw-600"
-                                for="SBNPZ"
+                                htmlFor="SBNPZ"
                               >
                                 SBNPZ
                               </label>
@@ -537,7 +536,7 @@ const Brand = () => {
                               />
                               <label
                                 className="custom-control-label fs-16 fw-600"
-                                for="SBAMZ"
+                                htmlFor="SBAMZ"
                               >
                                 SBAMZ
                               </label>
@@ -586,6 +585,7 @@ const Brand = () => {
                                     name="quantity"
                                     value="1"
                                     className="qty"
+                                    readOnly
                                   />{" "}
                                   <span className="inc button">+</span>
                                   <span className="dec button">-</span>
@@ -619,6 +619,7 @@ const Brand = () => {
                                     name="quantity"
                                     value="1"
                                     className="qty"
+                                    readOnly
                                   />{" "}
                                   <span className="inc button">+</span>
                                   <span className="dec button">-</span>
@@ -638,7 +639,7 @@ const Brand = () => {
                             </tr>
                             <tr>
                               <td
-                                colspan="3"
+                                colSpan="3"
                                 className="pa hideOnDesktop border-0 mobile-offer"
                               >
                                 <div>
@@ -667,6 +668,7 @@ const Brand = () => {
                                     name="quantity"
                                     value="1"
                                     className="qty"
+                                    readOnly
                                   />{" "}
                                   <span className="inc button">+</span>
                                   <span className="dec button">-</span>
@@ -700,6 +702,7 @@ const Brand = () => {
                                     name="quantity"
                                     value="1"
                                     className="qty"
+                                    readOnly
                                   />{" "}
                                   <span className="inc button">+</span>
                                   <span className="dec button">-</span>
@@ -733,6 +736,7 @@ const Brand = () => {
                                     name="quantity"
                                     value="1"
                                     className="qty"
+                                    readOnly
                                   />{" "}
                                   <span className="inc button">+</span>
                                   <span className="dec button">-</span>
@@ -861,10 +865,11 @@ const Brand = () => {
                                 className="custom-control-input"
                                 id="customCheck1"
                                 checked=""
+                                readOnly
                               />
                               <label
                                 className="custom-control-label"
-                                for="customCheck1"
+                                htmlFor="customCheck1"
                               >
                                 I agree to the{" "}
                                 <a
@@ -1322,15 +1327,19 @@ const Brand = () => {
                                   <ul className="list-inline customNewCheck br-0 m-0 p-0 py-1">
                                     <li className="list-inline-item">
                                       <input type="checkbox" id="OffersCheck" />
-                                      <label for="OffersCheck">Offers</label>
+                                      <label htmlFor="OffersCheck">
+                                        Offers
+                                      </label>
                                     </li>
                                     <li className="list-inline-item">
                                       <input type="checkbox" id="BrandsCheck" />
-                                      <label for="BrandsCheck">Brands</label>
+                                      <label htmlFor="BrandsCheck">
+                                        Brands
+                                      </label>
                                     </li>
                                     <li className="list-inline-item">
                                       <input type="checkbox" id="allCheck" />
-                                      <label for="allCheck">All</label>
+                                      <label htmlFor="allCheck">All</label>
                                     </li>
                                   </ul>
                                 </div>
@@ -1554,7 +1563,7 @@ const Brand = () => {
       </div>
       <div
         className="modal customModal"
-        tabindex="-1"
+        tabIndex="-1"
         role="dialog"
         id="login"
         aria-labelledby="myLargeModalLabel"
@@ -1616,7 +1625,7 @@ const Brand = () => {
       </div>
       <div
         className="modal customModal"
-        tabindex="-1"
+        tabIndex="-1"
         role="dialog"
         id="PasswordMod"
         aria-labelledby="myLargeModalLabel"
@@ -1649,6 +1658,7 @@ const Brand = () => {
                           id="DeliveryEnterName"
                           placeholder="Enter Mobile"
                           value="9910448494"
+                          readOnly
                         />
                         <div
                           className="alert alert-danger fs-14 m-0 p-2 rounded-0"
@@ -1665,6 +1675,7 @@ const Brand = () => {
                           name=""
                           id="DeliveryEnterMobileN"
                           placeholder="Enter Password"
+                          readOnly
                         />
                         <div
                           className="alert alert-danger fs-14 m-0 p-2 rounded-0"
@@ -1698,7 +1709,7 @@ const Brand = () => {
       </div>
       <div
         className="modal customModal"
-        tabindex="-1"
+        tabIndex="-1"
         role="dialog"
         id="Forgot"
         aria-labelledby="myLargeModalLabel"
@@ -1730,6 +1741,7 @@ const Brand = () => {
                           name=""
                           id="DeliveryEnterName"
                           placeholder="Enter Mobile"
+                          readOnly
                         />
                         <div
                           className="alert alert-danger fs-14 m-0 p-2 rounded-0"
@@ -1746,6 +1758,7 @@ const Brand = () => {
                           name=""
                           id="DeliveryEnterMobileN"
                           placeholder="Enter OTP"
+                          readOnly
                         />
                         <div
                           className="alert alert-danger fs-14 m-0 p-2 rounded-0"
@@ -1779,7 +1792,7 @@ const Brand = () => {
       </div>
       <div
         className="modal customModal"
-        tabindex="-1"
+        tabIndex="-1"
         role="dialog"
         id="login"
         aria-labelledby="myLargeModalLabel"
@@ -1811,6 +1824,7 @@ const Brand = () => {
                           name=""
                           id="DeliveryEnterName"
                           placeholder="Enter Mobile"
+                          readOnly
                         />
                         <div
                           className="alert alert-danger fs-14 m-0 p-2 rounded-0"
@@ -1827,6 +1841,7 @@ const Brand = () => {
                           name=""
                           id="DeliveryEnterName"
                           placeholder="Enter Name"
+                          readOnly
                         />
                         <div
                           className="alert alert-danger fs-14 m-0 p-2 rounded-0"
@@ -1843,6 +1858,7 @@ const Brand = () => {
                           name=""
                           id="DeliveryEnterName"
                           placeholder="Enter Email"
+                          readOnly
                         />
                         <div
                           className="alert alert-danger fs-14 m-0 p-2 rounded-0"
@@ -1872,7 +1888,7 @@ const Brand = () => {
       <div
         className="modal"
         id="MobileSummaryPopup"
-        tabindex="-1"
+        tabIndex="-1"
         role="dialog"
         aria-labelledby="tcModalCenterTitle"
         aria-hidden="true"
@@ -1903,7 +1919,7 @@ const Brand = () => {
       <div
         className="modal"
         id="tc"
-        tabindex="-1"
+        tabIndex="-1"
         role="dialog"
         aria-labelledby="tcModalCenterTitle"
         aria-hidden="true"
@@ -1995,7 +2011,7 @@ const Brand = () => {
       <div
         className="modal fade"
         id="StoreLocator"
-        tabindex="-1"
+        tabIndex="-1"
         role="dialog"
         aria-labelledby="StoreLocatorModalCenterTitle"
         aria-hidden="true"
