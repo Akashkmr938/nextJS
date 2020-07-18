@@ -12,7 +12,7 @@ const Brand = () => {
           <div className="left-nav">
             <ul className="list-unstyled m-0">
               <li>
-                <a href="index.html">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
                 <a href="#">New Arrivals</a>
@@ -167,7 +167,7 @@ const Brand = () => {
                     </div>
                   </div>
                   <div className="col-7 col-md-4 text-right center-logo">
-                    <a href="index.html">
+                    <a href="/">
                       <img src="images/logo.png" className="img-fluid" />
                     </a>
                   </div>
@@ -420,10 +420,10 @@ const Brand = () => {
                       <nav aria-label="breadcrumb">
                         <ol className="breadcrumb bg-transparent px-0 m-0 fs-14 fw-600 justify-content-end pb-md-0">
                           <li className="breadcrumb-item text-uppercase">
-                            <a href="index.html">HOME</a>
+                            <a href="/">HOME</a>
                           </li>
                           <li className="breadcrumb-item text-uppercase">
-                            <a href="index.html">Grocery &amp; Home Needs</a>
+                            <a href="/">Grocery &amp; Home Needs</a>
                           </li>
                           <li
                             className="breadcrumb-item text-uppercase active"
@@ -1196,115 +1196,115 @@ const Brand = () => {
                   <ol className="footerVerticalLinks">
                     <li className="footerVerticalLinks-item">BRANDS</li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">ALDO</a>
+                      <a href="/brand">ALDO</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Allen Solly</a>
+                      <a href="/brand">Allen Solly</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Armani Exchange</a>
+                      <a href="/brand">Armani Exchange</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Arrow</a>
+                      <a href="/brand">Arrow</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">BEBE</a>
+                      <a href="/brand">BEBE</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Bata</a>
+                      <a href="/brand">Bata</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Benetton</a>
+                      <a href="/brand">Benetton</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Central</a>
+                      <a href="/brand">Central</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Club SP</a>
+                      <a href="/brand">Club SP</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Coach</a>
+                      <a href="/brand">Coach</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Elle</a>
+                      <a href="/brand">Elle</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Fastrack</a>
+                      <a href="/brand">Fastrack</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Flying Machine</a>
+                      <a href="/brand">Flying Machine</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Baskin Robbins</a>
+                      <a href="/brand">Baskin Robbins</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Cafe Coffee Day Online</a>
+                      <a href="/brand">Cafe Coffee Day Online</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Costa Coffee</a>
+                      <a href="/brand">Costa Coffee</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">KFC</a>
+                      <a href="/brand">KFC</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Machaan</a>
+                      <a href="/brand">Machaan</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Mainland China</a>
+                      <a href="/brand">Mainland China</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">ALDO</a>
+                      <a href="/brand">ALDO</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Allen Solly</a>
+                      <a href="/brand">Allen Solly</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Armani Exchange</a>
+                      <a href="/brand">Armani Exchange</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Arrow</a>
+                      <a href="/brand">Arrow</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">BEBE</a>
+                      <a href="/brand">BEBE</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Bata</a>
+                      <a href="/brand">Bata</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Benetton</a>
+                      <a href="/brand">Benetton</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Central</a>
+                      <a href="/brand">Central</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Club SP</a>
+                      <a href="/brand">Club SP</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Coach</a>
+                      <a href="/brand">Coach</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Elle</a>
+                      <a href="/brand">Elle</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Fastrack</a>
+                      <a href="/brand">Fastrack</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Flying Machine</a>
+                      <a href="/brand">Flying Machine</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Baskin Robbins</a>
+                      <a href="/brand">Baskin Robbins</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Cafe Coffee Day Online</a>
+                      <a href="/brand">Cafe Coffee Day Online</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Costa Coffee</a>
+                      <a href="/brand">Costa Coffee</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">KFC</a>
+                      <a href="/brand">KFC</a>
                     </li>
                     <li className="footerVerticalLinks-item">
-                      <a href="brand.html">Machaan</a>
+                      <a href="/brand">Machaan</a>
                     </li>
                   </ol>
                 </div>

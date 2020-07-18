@@ -13,7 +13,7 @@ export const HomePage = () => {
           <div className="left-nav">
             <ul className="list-unstyled m-0">
               <li>
-                <a href="index.html">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
                 <a href="#">New Arrivals</a>
@@ -134,7 +134,7 @@ export const HomePage = () => {
                     </div>
                   </div>
                   <div className="col-7 col-md-4 text-right center-logo">
-                    <a href="index.html">
+                    <a href="/">
                       <img src="images/logo.png" className="img-fluid" />
                     </a>
                   </div>

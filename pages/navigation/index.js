@@ -2,7 +2,11 @@ import React from "react";
 import Navigation from "../../components/navigation/Navigation";
 
 const NavigationPage = (props) => {
-  return <Navigation {...props} />;
+  return (
+    <>
+      <Navigation {...props} />
+    </>
+  );
 };
 
 export default NavigationPage;
