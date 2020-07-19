@@ -16,7 +16,7 @@ export async function getServerSideProps(context) {
   let failure = false;
   try {
     const res = await fetch(
-      `https://api.gyftr.net/smartbuyapi/hdfc/api/v1/home/categorie`
+      `https://api.gyftr.net/smartbuyapi/hdfc/api/v1/home/categories`
     );
     navigationMenu = await res.json();
   } catch {
