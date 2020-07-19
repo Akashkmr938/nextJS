@@ -12,14 +12,28 @@ const NavigationPage = (props) => {
 export default NavigationPage;
 
 export async function getServerSideProps(context) {
-  const res = await fetch(
-    `https://api.gyftr.net/smartbuyapi/hdfc/api/v1/home/categories`
-  );
-  const post = await res.json();
-
-  return {
-    props: {
-      navigationData: post.data,
-    },
-  };
+  let navigationMenu;
+  let failure = false;
+  try {
+    const res = await fetch(
+      `https://api.gyftr.net/smartbuyapi/hdfc/api/v1/home/categorie`
+    );
+    navigationMenu = await res.json();
+  } catch {
+    console.log("Something went Wrong");
+    failure = true;
+  } finally {
+    if (!failure) {
+      return {
+        props: {
+          navigationData: navigationMenu.data,
+        },
+      };
+    }
+    return {
+      props: {
+        navigationData: null,
+      },
+    };
+  }
 }
