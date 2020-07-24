@@ -23,7 +23,7 @@ export default connect((state) => state)(NavigationPage);
  */
 export const getServerSideProps = wrapper.getServerSideProps(({ store }) => {
   return Axios.get(
-    `https://api.gyftr.net/smartbuyapi/hdfc/api/v1/home/categorie`
+    `https://api.gyftr.net/smartbuyapi/hdfc/api/v1/home/categories`
   )
     .then((response) => {
       store.dispatch({ type: "BRAND", payload: response.data.data });
