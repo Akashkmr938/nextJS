@@ -6,9 +6,30 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Online Gift Voucher Website | Indus Shop Plus</title>
+
+        <link
+          rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet"
+        />
         <link href="/styles/footer-style.css" rel="stylesheet" />
         <link href="/styles/owl.carousel.min.css" rel="stylesheet" />
         <link href="/styles/styles.css" rel="stylesheet" />
+        <link href="/styles/footer-style.css" rel="stylesheet" />
+        <link href="/styles/owl.carousel.min.css" rel="stylesheet" />
+        <link href="/styles/styles.css" rel="stylesheet" />
+
         <script
           src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
           integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

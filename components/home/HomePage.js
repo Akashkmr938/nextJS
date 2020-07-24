@@ -1,6 +1,9 @@
 import React from "react";
 import Link from "next/link";
 
+/**
+ * This component will render the home page on base url.
+ */
 export const HomePage = () => {
   return (
     <>

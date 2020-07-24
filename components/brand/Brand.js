@@ -1,6 +1,9 @@
 import React from "react";
 import Link from "next/link";
 
+/**
+ * This component will actually render the brand page.
+ */
 const Brand = () => {
   return (
     <>

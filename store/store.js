@@ -1,7 +1,8 @@
-import { createStore, applyMiddleware } from "redux";
+import { createStore, applyMiddleware, compose } from "redux";
 import { createWrapper, HYDRATE } from "next-redux-wrapper";
-import promise from "redux-promise-middleware";
+import thunk from "redux-thunk";
 
+// Reducers
 const reducer = (state = {}, action) => {
   switch (action.type) {
     case HYDRATE:
@@ -13,8 +14,13 @@ const reducer = (state = {}, action) => {
   }
 };
 
-const composeStoreWithMiddleware = applyMiddleware(promise)(createStore);
+// To enable redux dev tools extension in browser.
+const composeEnhancers =
+  (typeof window != "undefined" &&
+    window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) ||
+  compose;
 
-const makeStore = (context) => createStore(reducer);
+const makeStore = () =>
+  createStore(reducer, composeEnhancers(applyMiddleware(thunk)));
 
 export const wrapper = createWrapper(makeStore, { debug: true });

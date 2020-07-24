@@ -1,14 +1,20 @@
 import React, { useEffect } from "react";
 import { useRouter } from "next/router";
 
+/**
+ * This component will render the Navigation page on "/navigation" URL.
+ */
 const Navigation = (props) => {
   const router = useRouter();
 
+  /*This method will check if navigation data is present or not during component mount.
+    If not present, it will route the user to homepage. */
   useEffect(() => {
     if (!props.navigationData) {
       router.push("/");
     }
   }, []);
+
   return (
     <>
       <nav className="desktopNav row border-bottom bg-white">

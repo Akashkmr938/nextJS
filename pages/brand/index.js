@@ -1,7 +1,9 @@
 import React from "react";
 import Brand from "../../components/brand/Brand";
-import Head from "next/head";
 
+/**
+ * Brand page wrapper component
+ */
 const BrandPage = () => {
   return (
     <>
