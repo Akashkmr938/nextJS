@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
+import { nav } from "../../public/js/nav";
 
 /**
  * This component will render the home page on base url.
  */
 export const HomePage = () => {
+  useEffect(() => {
+    nav();
+  }, []);
   return (
     <>
       <a href="#" className="cartBtn">

@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
+import { nav } from "../../public/js/nav";
 
 /**
  * This component will actually render the brand page.
  */
 const Brand = () => {
+  useEffect(() => {
+    nav();
+  }, []);
   return (
     <>
       <a href="#" className="cartBtn">
