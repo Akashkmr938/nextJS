@@ -30,7 +30,7 @@ class MyDocument extends Document {
           />
           <link href="/styles/footer-style.css" rel="stylesheet" />
           <link href="/styles/owl.carousel.min.css" rel="stylesheet" />
-          <link href="/styles/styles.css?v=1.1" rel="stylesheet" />
+          <link href="/styles/styles.css" rel="stylesheet" />
         </Head>
         <body>
           <Main />
@@ -50,8 +50,9 @@ class MyDocument extends Document {
               integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
               crossOrigin="anonymous"
             ></script>
-            <script src="js/owl.carousel.js"></script>
-            <script src="js/custom.js"></script>
+            <script src="/js/owl.carousel.js"></script>
+            <script src="/js/custom.js"></script>
+            <script src="/js/carousel.js"></script>
           </NextScript>
         </body>
       </Html>
